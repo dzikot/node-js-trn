@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <script>
+      async function submit() {
+        let url = inp.value;
+        let response = await fetch(url);
+        let result = await response.text();
+        inp.value = result;
+    }
+    </script>
+    <input id="inp">
+    <button id="bt" onclick="submit()"> Click </button>
+  </body>
+</html>
