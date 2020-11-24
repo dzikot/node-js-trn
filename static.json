@@ -4,7 +4,7 @@
       "X-Author" : "sdimm",
       "Access-Control-Allow-Origin" : "*",
       "Content-Type" : "text/html; charset=UTF-8"
-    }
+    },
     "/**" : {
       "X-Author" : "sdimm",
       "Access-Control-Allow-Origin" : "*",
